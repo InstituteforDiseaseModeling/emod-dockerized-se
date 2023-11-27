@@ -1,0 +1,14 @@
+{
+    "Metadata": {
+        "Author": "jbloedow@internal.idm.ctr",
+        "DateCreated": "Mon Nov 21 2022 13:54:53",
+        "Tool": "emod-api",
+        "IdReference": "India-Like",
+        "MigrationType": "REGIONAL_MIGRATION",
+        "NodeCount": 10,
+        "DatavalueCount": 9,
+        "GenderDataType": "SAME_FOR_BOTH_GENDERS",
+        "InterpolationType": "PIECEWISE_CONSTANT"
+    },
+    "NodeOffsets": "0000000100000000000000020000006c00000003000000d8000000040000014400000005000001b0000000060000021c000000070000028800000008000002f400000009000003600000000a000003cc"
+}

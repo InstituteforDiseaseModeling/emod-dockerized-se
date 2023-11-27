@@ -1,0 +1,77 @@
+{
+   "Defaults": {
+      "IndividualAttributes": {
+         "AgeDistribution1": 0,
+         "AgeDistribution2": 18250,
+         "AgeDistributionFlag": 1,
+         "InitialPrevalence": 0,
+         "PrevalenceDist_Description": "No initial prevalence",
+         "RiskDist_Description": "LogNormal distributed risk",
+         "RiskDistribution1": 0.0,
+         "RiskDistribution2": 1.6,
+         "RiskDistributionFlag": 5
+      },
+      "IndividualProperties": [],
+      "NodeAttributes": {
+         "Airport": 1,
+         "Altitude": 0,
+         "BirthRate": 0.0004,
+         "Region": 1,
+         "Seaport": 1
+      }
+   },
+   "Metadata": {
+      "Author": "root",
+      "DateCreated": "09/27/2022",
+      "IdReference": "from_params",
+      "NodeCount": 5,
+      "Tool": "emod-api"
+   },
+   "Nodes": [
+      {
+         "IndividualAttributes": {},
+         "NodeAttributes": {
+            "InitialPopulation": 237,
+            "Latitude": 0,
+            "Longitude": 0
+         },
+         "NodeID": 1
+      },
+      {
+         "IndividualAttributes": {},
+         "NodeAttributes": {
+            "InitialPopulation": 5,
+            "Latitude": 1,
+            "Longitude": 0
+         },
+         "NodeID": 2
+      },
+      {
+         "IndividualAttributes": {},
+         "NodeAttributes": {
+            "InitialPopulation": 9,
+            "Latitude": 2,
+            "Longitude": 0
+         },
+         "NodeID": 3
+      },
+      {
+         "IndividualAttributes": {},
+         "NodeAttributes": {
+            "InitialPopulation": 39,
+            "Latitude": 3,
+            "Longitude": 0
+         },
+         "NodeID": 4
+      },
+      {
+         "IndividualAttributes": {},
+         "NodeAttributes": {
+            "InitialPopulation": 10,
+            "Latitude": 4,
+            "Longitude": 0
+         },
+         "NodeID": 5
+      }
+   ]
+}
