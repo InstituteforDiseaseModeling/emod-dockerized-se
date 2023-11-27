@@ -23,4 +23,4 @@ ENV LD_LIBRARY_PATH=${LD_LIBRARY_PATH}:/usr/lib64/mpich/lib
 
 COPY examples /emod
 
-CMD pushd /emod/Experiment1/sim1 && /emod/Eradication --config config.json --input-path /emod/Experiment1/Assets
+CMD pushd /emod/Experiment1/Sim1 && /emod/Eradication --config config.json --input-path /emod/Experiment1/Assets
