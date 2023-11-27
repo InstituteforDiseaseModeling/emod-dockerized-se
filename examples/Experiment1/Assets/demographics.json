@@ -1,77 +1,245 @@
 {
    "Defaults": {
       "IndividualAttributes": {
-         "AgeDistribution1": 0,
-         "AgeDistribution2": 18250,
-         "AgeDistributionFlag": 1,
-         "InitialPrevalence": 0,
-         "PrevalenceDist_Description": "No initial prevalence",
-         "RiskDist_Description": "LogNormal distributed risk",
-         "RiskDistribution1": 0.0,
-         "RiskDistribution2": 1.6,
-         "RiskDistributionFlag": 5
+         "ImmunityDistribution1": 1,
+         "ImmunityDistribution2": 0,
+         "ImmunityDistributionFlag": 0,
+         "MigrationHeterogeneityDistribution1": 1,
+         "MigrationHeterogeneityDistribution2": 0,
+         "MigrationHeterogeneityDistributionFlag": 0,
+         "MortalityDistribution": {
+            "AxisNames": [
+               "gender",
+               "age"
+            ],
+            "AxisScaleFactors": [
+               1,
+               365
+            ],
+            "AxisUnits": [
+               "male=0,female=1",
+               "years"
+            ],
+            "NumDistributionAxes": 2,
+            "NumPopulationGroups": [
+               2,
+               1
+            ],
+            "PopulationGroups": [
+               [
+                  0,
+                  1
+               ],
+               [
+                  0
+               ]
+            ],
+            "ResultScaleFactor": 2.74e-06,
+            "ResultUnits": "annual deaths per 1000 individuals",
+            "ResultValues": [
+               [
+                  23.0
+               ],
+               [
+                  23.0
+               ]
+            ]
+         },
+         "PrevalenceDistribution1": 0.13,
+         "PrevalenceDistribution2": 0.15,
+         "PrevalenceDistributionFlag": 1,
+         "RiskDistribution1": 1,
+         "RiskDistribution2": 0,
+         "RiskDistributionFlag": 0
       },
-      "IndividualProperties": [],
       "NodeAttributes": {
-         "Airport": 1,
+         "AbovePoverty": 0.5,
+         "Airport": 0,
          "Altitude": 0,
-         "BirthRate": 0.0004,
+         "BirthRateSource": "World Bank",
+         "CountryBirthRate": 36.30287175670945,
          "Region": 1,
-         "Seaport": 1
+         "Seaport": 0,
+         "Urban": 0,
+         "World Bank Year": "2016"
       }
    },
    "Metadata": {
-      "Author": "root",
-      "DateCreated": "09/27/2022",
-      "IdReference": "from_params",
-      "NodeCount": 5,
-      "Tool": "emod-api"
+      "Author": "idm",
+      "DateCreated": "2019-10-09 19:05:26.229238",
+      "IdReference": "Custom user",
+      "NodeCount": 1,
+      "Resolution": 30,
+      "Tool": "dtk-tools"
    },
    "Nodes": [
       {
-         "IndividualAttributes": {},
+         "IndividualAttributes": {
+            "AgeDistribution": {
+               "DistributionValues": [
+                  [
+                     0.0,
+                     0.09283128862223852,
+                     0.1772211025454774,
+                     0.25393702279895114,
+                     0.32367683741088754,
+                     0.3870071913378208,
+                     0.4446451552016249,
+                     0.49704189320403297,
+                     0.5446739889406104,
+                     0.5879746921806008,
+                     0.6273377246229421,
+                     0.6631206791912141,
+                     0.6956497619307801,
+                     0.7251893347323798,
+                     0.7520742768551991,
+                     0.7765142764013582,
+                     0.7987315336335542,
+                     0.8189284949356203,
+                     0.8372888655321308,
+                     0.8539796470598181,
+                     0.8691525528112302,
+                     0.8829308140781711,
+                     0.8954708922721066,
+                     0.9068706500664176,
+                     0.9172337771432669,
+                     0.9266544386796152,
+                     0.9352183517697102,
+                     0.9430035165849779,
+                     0.9500807446461047,
+                     0.9565075587977739,
+                     0.9623567260094198,
+                     0.9676739687563408,
+                     0.9725076946297527,
+                     0.9769018698125737,
+                     0.980896462811316,
+                     0.9845277584117492,
+                     0.9878288232462242,
+                     0.9908265109620692,
+                     0.9935548072877166,
+                     0.9960350071420613,
+                     0.9982896317086243,
+                     1.0000000000000013,
+                     1.0000000000000013,
+                     1.0000000000000013,
+                     1.0000000000000013,
+                     1.0000000000000013,
+                     1.0000000000000013,
+                     1.0000000000000013,
+                     1.0000000000000013,
+                     1.0000000000000013
+                  ]
+               ],
+               "ResultScaleFactor": 1,
+               "ResultValues": [
+                  [
+                     0.0,
+                     894.0,
+                     1788.0,
+                     2682.0,
+                     3576.0,
+                     4469.0,
+                     5363.0,
+                     6257.0,
+                     7151.0,
+                     8045.0,
+                     8939.0,
+                     9833.0,
+                     10727.0,
+                     11620.0,
+                     12514.0,
+                     13408.0,
+                     14302.0,
+                     15196.0,
+                     16090.0,
+                     16984.0,
+                     17878.0,
+                     18771.0,
+                     19665.0,
+                     20559.0,
+                     21453.0,
+                     22347.0,
+                     23241.0,
+                     24135.0,
+                     25029.0,
+                     25922.0,
+                     26816.0,
+                     27710.0,
+                     28604.0,
+                     29498.0,
+                     30392.0,
+                     31286.0,
+                     32180.0,
+                     33073.0,
+                     33967.0,
+                     34861.0,
+                     35755.0,
+                     36649.0,
+                     37543.0,
+                     38437.0,
+                     39331.0,
+                     40224.0,
+                     41118.0,
+                     42012.0,
+                     42906.0,
+                     43800.0
+                  ]
+               ]
+            },
+            "FertilityDistribution": {},
+            "MortalityDistribution": {
+               "AxisNames": [
+                  "gender",
+                  "age"
+               ],
+               "AxisScaleFactors": [
+                  1,
+                  365
+               ],
+               "AxisUnits": [
+                  "male=0,female=1",
+                  "years"
+               ],
+               "NumDistributionAxes": 2,
+               "NumPopulationGroups": [
+                  2,
+                  1
+               ],
+               "PopulationGroups": [
+                  [
+                     0,
+                     1
+                  ],
+                  [
+                     0
+                  ]
+               ],
+               "ResultScaleFactor": 2.74e-06,
+               "ResultUnits": "annual deaths per 1000 individuals",
+               "ResultValues": [
+                  [
+                     38.92
+                  ],
+                  [
+                     38.92
+                  ]
+               ]
+            }
+         },
          "NodeAttributes": {
-            "InitialPopulation": 237,
-            "Latitude": 0,
-            "Longitude": 0
+            "BirthRate": 0.10663013698630137,
+            "FacilityName": 1,
+            "InitialPopulation": 1000,
+            "Latitude": 8.5,
+            "Longitude": -10.0,
+            "Metadata": {
+               "BirthRateSource": "World Bank",
+               "CountryBirthRate": 38.92,
+               "World Bank Year": "2016"
+            },
+            "country": "Burkina Faso"
          },
          "NodeID": 1
-      },
-      {
-         "IndividualAttributes": {},
-         "NodeAttributes": {
-            "InitialPopulation": 5,
-            "Latitude": 1,
-            "Longitude": 0
-         },
-         "NodeID": 2
-      },
-      {
-         "IndividualAttributes": {},
-         "NodeAttributes": {
-            "InitialPopulation": 9,
-            "Latitude": 2,
-            "Longitude": 0
-         },
-         "NodeID": 3
-      },
-      {
-         "IndividualAttributes": {},
-         "NodeAttributes": {
-            "InitialPopulation": 39,
-            "Latitude": 3,
-            "Longitude": 0
-         },
-         "NodeID": 4
-      },
-      {
-         "IndividualAttributes": {},
-         "NodeAttributes": {
-            "InitialPopulation": 10,
-            "Latitude": 4,
-            "Longitude": 0
-         },
-         "NodeID": 5
       }
    ]
 }
