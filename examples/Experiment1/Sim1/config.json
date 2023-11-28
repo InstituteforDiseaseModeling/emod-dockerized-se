@@ -687,7 +687,7 @@
         ],
         "Serialized_Population_Reading_Type": "NONE",
         "Serialized_Population_Writing_Type": "TIMESTEP",
-        "Simulation_Duration": 14600,
+        "Simulation_Duration": 2920,
         "Simulation_Timestep": 1,
         "Simulation_Type": "MALARIA_SIM",
         "Start_Time": 0,
